@@ -1,2 +1,6 @@
-﻿  main.c
-  calculator.vcxproj -> C:\Users\rasd1\Desktop\calculator\計算機\calculator\Debug\calculator.exe
+﻿  Operation.c
+  main.c
+  正在產生程式碼...
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(53): warning C4715: 'calculator': 不是所有控制路徑都傳回值
+  LINK : 最後的累加連結找不到或未建置 C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe，正在執行完整連結
+  calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
