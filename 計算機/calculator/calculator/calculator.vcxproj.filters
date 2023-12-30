@@ -19,7 +19,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Operation.h">
+    <ClInclude Include="Factorial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

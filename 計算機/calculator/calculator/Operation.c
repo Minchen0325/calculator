@@ -34,6 +34,7 @@ int calculator() {
 	case '^':
 		result = pow(num1, num2);
 		break;
+
 	case 's':
 		if (num1 >= 0) {
 			result = sqrt(num1);
@@ -43,6 +44,7 @@ int calculator() {
 			return 1;
 		}
 		break;
+
 	default:
 		printf("錯誤：無效的運算符\n");
 		return 1;

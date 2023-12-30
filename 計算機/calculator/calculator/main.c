@@ -90,6 +90,10 @@ int main() {
 					printf("錯誤：除數不能為0\n");
 				}
 				break;
+			case '!':
+
+			
+
 			default:
 				printf("錯誤：無效的運算符\n");
 				break;
