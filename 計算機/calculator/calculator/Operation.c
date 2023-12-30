@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <math.h>
+
 
 int calculator() {
+	
 	char operator;
 	double num1, num2, result;
-
 	printf("請輸入運算符(+, -, *, /, ^, sqrt): ");
 	scanf(" %c", &operator);
 
@@ -45,6 +47,5 @@ int calculator() {
 		printf("錯誤：無效的運算符\n");
 		return 1;
 	}
-
 	printf("結果: %.2lf %c %.2lf = %.2lf\n", num1, operator, num2, result);
 }

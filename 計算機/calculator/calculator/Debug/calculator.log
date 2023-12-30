@@ -1,7 +1,2 @@
-﻿  Operation.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(33): warning C4013: 'pow' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(37): warning C4013: 'sqrt' 未定義; 假設 extern 傳回整數
-  main.c
-  正在產生程式碼...
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(50): warning C4715: 'calculator': 不是所有控制路徑都傳回值
+﻿  main.c
   calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
