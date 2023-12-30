@@ -124,12 +124,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animation.c" />
+    <ClCompile Include="history.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="Operation.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="calculator.h" />
-    <ClInclude Include="Factorial.h" />
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="history.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

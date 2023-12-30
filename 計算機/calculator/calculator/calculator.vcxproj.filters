@@ -14,15 +14,18 @@
     <ClCompile Include="main.c">
       <Filter>sourse</Filter>
     </ClCompile>
-    <ClCompile Include="Operation.c">
+    <ClCompile Include="history.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.c">
       <Filter>sourse</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Factorial.h">
+    <ClInclude Include="history.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="calculator.h">
+    <ClInclude Include="animation.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
