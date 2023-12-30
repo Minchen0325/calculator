@@ -14,13 +14,13 @@
     <ClCompile Include="main.c">
       <Filter>sourse</Filter>
     </ClCompile>
-    <ClCompile Include="Operation.c">
-      <Filter>sourse</Filter>
+    <ClCompile Include="history.c">
+      <Filter>include</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Operation.h">
-      <Filter>include</Filter>
+    <ClInclude Include="history.h">
+      <Filter>sourse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
