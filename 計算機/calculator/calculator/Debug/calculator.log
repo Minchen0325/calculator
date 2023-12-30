@@ -1,2 +1,5 @@
-﻿  main.c
-  calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
+﻿  Operation.c
+c:\users\user\onedrive\桌面\calculator\計算機\calculator\calculator\operation.c(15): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\onedrive\桌面\calculator\計算機\calculator\calculator\operation.c(39): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
+c:\users\user\onedrive\桌面\calculator\計算機\calculator\calculator\operation.c(40): warning C4716: 'calculator': 必須傳回值
+  calculator.vcxproj -> C:\Users\USER\OneDrive\桌面\calculator\計算機\calculator\Debug\calculator.exe
