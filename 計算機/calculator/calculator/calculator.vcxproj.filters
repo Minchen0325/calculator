@@ -15,12 +15,12 @@
       <Filter>sourse</Filter>
     </ClCompile>
     <ClCompile Include="history.c">
-      <Filter>include</Filter>
+      <Filter>sourse</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="history.h">
-      <Filter>sourse</Filter>
+      <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
