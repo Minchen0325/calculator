@@ -17,10 +17,16 @@
     <ClCompile Include="history.c">
       <Filter>include</Filter>
     </ClCompile>
+    <ClCompile Include="translate.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="history.h">
       <Filter>sourse</Filter>
+    </ClInclude>
+    <ClInclude Include="translate.h">
+      <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

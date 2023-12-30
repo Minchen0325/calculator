@@ -1,2 +1,7 @@
-﻿  main.c
-  calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
+﻿  history.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\history.c(25): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+  main.c
+  translate.c
+  正在產生程式碼...
+  LINK : 最後的累加連結找不到或未建置 C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe，正在執行完整連結
+  calculator.vcxproj -> C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe

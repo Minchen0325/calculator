@@ -126,9 +126,11 @@
   <ItemGroup>
     <ClCompile Include="history.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="translate.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="history.h" />
+    <ClInclude Include="translate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
