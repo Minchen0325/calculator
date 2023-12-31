@@ -20,6 +20,9 @@
     <ClCompile Include="animation.c">
       <Filter>sourse</Filter>
     </ClCompile>
+    <ClCompile Include="translate.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
     <ClCompile Include="Operation.c">
       <Filter>sourse</Filter>
     </ClCompile>
@@ -29,6 +32,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="animation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="translate.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Operation.h">

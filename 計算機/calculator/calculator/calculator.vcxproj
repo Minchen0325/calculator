@@ -128,11 +128,13 @@
     <ClCompile Include="history.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Operation.c" />
+    <ClCompile Include="translate.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animation.h" />
     <ClInclude Include="history.h" />
     <ClInclude Include="Operation.h" />
+    <ClInclude Include="translate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
