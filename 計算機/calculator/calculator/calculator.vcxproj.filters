@@ -17,9 +17,15 @@
     <ClCompile Include="history.c">
       <Filter>sourse</Filter>
     </ClCompile>
+    <ClCompile Include="Operation.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="history.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\Operation.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
