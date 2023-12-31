@@ -17,6 +17,9 @@
     <ClCompile Include="history.c">
       <Filter>sourse</Filter>
     </ClCompile>
+    <ClCompile Include="animation.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
     <ClCompile Include="Operation.c">
       <Filter>sourse</Filter>
     </ClCompile>
@@ -25,7 +28,10 @@
     <ClInclude Include="history.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\Operation.h">
+    <ClInclude Include="animation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

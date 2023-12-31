@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../calculator//history.h"
+#include "../calculator//Operation.h"
+#include "../calculator//animation.h"
 
-#define MAX_HISTORY_LENGTH 100
+#define MAX_HISTORY_LENGTH 100 
 
 int main() {
 	char option;
@@ -19,6 +21,7 @@ int main() {
 		scanf(" %c", &option);
 
 		switch (option) {
+
 
 		case '1':
 			calculator();
