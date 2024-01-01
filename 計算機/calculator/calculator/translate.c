@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+
+
 int b2d(int x)
 {
 	int ans = 0, count = -1, ris = 1, time;

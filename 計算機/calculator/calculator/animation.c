@@ -2,10 +2,10 @@
 #include <windows.h> 
 
 void animation(double num1, double num2, double result) {
-
+	
     char display[100];
 
-    snprintf(display, sizeof(display), "num1: %lf, num2: %lf, result: %lf", num1, num2, result);
+    snprintf(display, sizeof(display), "num1: %.2lf, num2: %.2lf, result: %.2lf", num1, num2, result);
 
     int i = 0;
     while (display[i] != '\0') {

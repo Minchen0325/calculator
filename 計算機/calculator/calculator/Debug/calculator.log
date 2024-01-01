@@ -1,14 +1,3 @@
-﻿  animation.c
-  main.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(12): warning C4101: 'num1': 未參考的區域變數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(12): warning C4101: 'result': 未參考的區域變數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(12): warning C4101: 'num2': 未參考的區域變數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(11): warning C4101: 'operator': 未參考的區域變數
-  Operation.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(15): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(39): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
-  translate.c
-  正在產生程式碼...
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(40): warning C4716: 'calculator': 必須傳回值
-  LINK : 最後的累加連結找不到或未建置 C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe，正在執行完整連結
+﻿  main.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(29): warning C4020: 'calculator': 實質參數太多
   calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
