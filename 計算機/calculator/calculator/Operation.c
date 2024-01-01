@@ -62,8 +62,16 @@ char* calculator(double *num1, double *num2, double *result) {
 	//三角函數跟sqrt除外計算
 	if (strcmp(operator, "sin") != 0 && strcmp(operator, "cos") != 0 && strcmp(operator, "tan") != 0 &&
 		strcmp(operator, "asin") != 0 && strcmp(operator, "acos") != 0 && strcmp(operator, "atan") != 0&& (strcmp(operator, "sqrt") != 0)) {
-		printf("請輸入兩個數字: ");
-		scanf("%lf %lf", num1, num2);
+		if (strcmp(operator, "log") == 0) {
+			printf("log底數為:");
+			scanf("%lf", num1);
+			printf("log真數為:");
+			scanf("%lf", num2);
+		}
+		else {
+			printf("請輸入兩個數字(中間請以空白隔開): ");
+			scanf("%lf %lf", num1, num2);
+		}
 		if (strcmp(operator, "+") == 0) *result = *num1 + *num2;
 		else if (strcmp(operator, "-") == 0) *result = *num1 - *num2;
 		else if (strcmp(operator, "*") == 0) *result = *num1 * *num2;
@@ -78,7 +86,13 @@ char* calculator(double *num1, double *num2, double *result) {
 		else if (strcmp(operator, "^") == 0) *result = pow(*num1, *num2);
 		else if (strcmp(operator, "log") == 0) *result = log(*num2) / log(*num1);
 		//結果打印( +  -  *  /  %  log)
-		printf("結果: %.2lf %s %.2lf = %.2lf\n", *num1, operator, *num2, *result);
+		if (strcmp(operator, "log") == 0) {
+			printf("%s 以%0.2lf為底 %0.2lf為真數 = %0.2lf ", operator ,*num1, *num2, *result);
+		}
+		else {
+			printf("結果: %.2lf %s %.2lf = %.2lf\n", *num1, operator, *num2, *result);
+		}
+		
 		saveHistory(operator, *num1, *num2, *result);
 	}
 
