@@ -3,7 +3,7 @@
 #define PI 3.1415926
 
 int isValidOperator(char operator[]) {
-	char validOperators[] = "+-*/%^sqrtlogsincostanasincostan";
+	char validOperators[] = "+-*/%^sqrtlogsincostanasinacosatan";
 	return (strstr(validOperators, operator) != NULL);
 }
 
@@ -11,7 +11,7 @@ char* calculator(double *num1, double *num2, double *result) {
 
 	char* fuck = malloc(100);
 	char operator[10];
-	double angle;
+	double value;
 	//檢查運算符號
 	do {
 		printf("請輸入運算符( +, -, *, /, %, ^, sqrt, log , (a)sin , (a)cos , (a)tan ) : ");
@@ -26,16 +26,27 @@ char* calculator(double *num1, double *num2, double *result) {
 	//三角函數
 	if (strcmp(operator, "sin") == 0 || strcmp(operator, "cos") == 0 || strcmp(operator, "tan") == 0 ||
 		strcmp(operator, "asin") == 0 || strcmp(operator, "acos") == 0 || strcmp(operator, "atan") == 0) {
-		printf("請輸入角度: ");
-		scanf("%lf", &angle);
-		if (strcmp(operator, "sin") == 0) *result = sin(angle / 180 * PI);
-		else if (strcmp(operator, "cos") == 0) *result = cos(angle / 180 * PI);
-		else if (strcmp(operator, "tan") == 0) *result = tan(angle / 180 * PI);
-		else if (strcmp(operator, "asin") == 0) *result = (asin(angle) / PI * 180);
-		else if (strcmp(operator, "acos") == 0) *result = (acos(angle) / PI * 180);
-		else if (strcmp(operator, "atan") == 0) *result = (atan(angle) / PI * 180);
-		printf("結果: %s %.2lf = %.2lf\n", operator, angle, *result);
-		saveHistory(operator, 0.0, angle, *result);
+		if (strcmp(operator, "sin") == 0 || strcmp(operator, "cos") == 0 || strcmp(operator, "tan") == 0) {
+			printf("請輸入角度: ");
+			scanf("%lf", &value);
+			if (strcmp(operator, "sin") == 0) *result = sin(value / 180 * PI);
+			else if (strcmp(operator, "cos") == 0) *result = cos(value / 180 * PI);
+			else if (strcmp(operator, "tan") == 0) *result = tan(value / 180 * PI);
+			printf("結果: %s %.2lf = %.2lf\n", operator, value, *result);
+		}
+		else if (strcmp(operator, "asin") == 0 || strcmp(operator, "acos") == 0 || strcmp(operator, "atan") == 0) {
+			do {
+				printf("請輸入值(0~1):");
+				scanf("%lf", &value);
+			} while (value < 0 || value > 1);
+
+		    if (strcmp(operator, "asin") == 0) *result = (asin(value) / PI * 180);
+		    else if (strcmp(operator, "acos") == 0) *result = (acos(value) / PI * 180);
+		    else if (strcmp(operator, "atan") == 0) *result = (atan(value) / PI * 180);
+			printf("結果: %s %.2lf = %.2lf\n", operator, value, *result);
+		}
+
+		saveHistory(operator, 0.0, value, *result);
 	}
 
 	//該死的開根號
@@ -81,7 +92,7 @@ char* calculator(double *num1, double *num2, double *result) {
 	else if (strcmp(operator, "sin") == 0 || strcmp(operator, "cos") == 0 ||
 		strcmp(operator, "tan") == 0 || strcmp(operator, "asin") == 0 || strcmp(operator, "acos") == 0 ||
 		strcmp(operator, "atan") == 0) {
-		snprintf(fuck, 100, "%s %f %c %f\n", operator, angle, '=', *result);
+		snprintf(fuck, 100, "%s %f %c %f\n", operator, value, '=', *result);
 	}
 	else if (strcmp(operator, "sqrt") == 0) {
 		snprintf(fuck, 100, "%s %f %c %f\n", operator, *num2, '=', *result);
