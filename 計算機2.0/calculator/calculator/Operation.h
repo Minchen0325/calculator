@@ -1,0 +1,1 @@
+char* calculator(double *num1, double *num2, double *result);

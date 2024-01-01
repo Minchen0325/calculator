@@ -1,0 +1,27 @@
+﻿  animation.c
+  checkdonkey.c
+  history.c
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\history.c(8): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\history.c(32): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+  main.c
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\main.c(30): warning C4013: 'checkdonkey' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\main.c(38): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\main.c(51): warning C4013: 'binary' 未定義; 假設 extern 傳回整數
+  Operation.c
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(7): warning C4013: 'strstr' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(7): warning C4047: '!=': 'int' 與 'void *' 間接取值的層級不同
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(12): warning C4013: 'malloc' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(17): warning C4476: 'printf' : 格式規範中有未知的類型欄位字元 ','
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(27): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(49): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\operation.c(12): warning C4047: '正在初始化': 'char *' 與 'int' 間接取值的層級不同
+  translate.c
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(88): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(100): warning C4013: 'checkdonkey' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(108): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(139): warning C4013: 'change' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(83): warning C4101: 'back': 未參考的區域變數
+  正在產生程式碼...
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\translate.c(178): warning C4716: 'binary': 必須傳回值
+c:\users\user\desktop\calculator\計算機2.0\calculator\calculator\checkdonkey.c(17): warning C4715: 'checkdonkey': 不是所有控制路徑都傳回值
+  calculator.vcxproj -> C:\Users\USER\Desktop\calculator\計算機2.0\calculator\Debug\calculator.exe

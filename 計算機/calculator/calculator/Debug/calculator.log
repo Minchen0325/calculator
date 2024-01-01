@@ -6,4 +6,18 @@ c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(17)
 c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(27): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
 c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(49): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
 c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(12): warning C4047: '正在初始化': 'char *' 與 'int' 間接取值的層級不同
-  calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
+  animation.c
+  history.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\history.c(8): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\history.c(32): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+  main.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(27): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(40): warning C4013: 'binary' 未定義; 假設 extern 傳回整數
+  translate.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(49): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(55): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(47): warning C4101: 'back': 未參考的區域變數
+  正在產生程式碼...
+c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(75): warning C4716: 'binary': 必須傳回值
+  LINK : 最後的累加連結找不到或未建置 C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe，正在執行完整連結
+  calculator.vcxproj -> C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe
