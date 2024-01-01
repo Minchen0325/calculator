@@ -1,1 +1,1 @@
-void calculator(double *num1, double *num2);
+char* calculator(double *num1, double *num2, double *result);

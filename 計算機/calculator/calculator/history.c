@@ -5,8 +5,14 @@ void saveHistory(char *operation, double num1, double num2, double result) {
 		printf("無法打開或創建 history.txt 文件。\n");
 		return;
 	}
+	if (strcmp(operation, "sin") == 0 || strcmp(operation, "cos") == 0 || strcmp(operation, "tan") == 0) {
+		fprintf(fptr, "%s %.2lf = %.2lf\n", operation, num2, result);
+	}
+	else {
+		fprintf(fptr, "%.2lf %s %.2lf = %.2lf\n", num1, operation, num2, result);
+	}
 
-	fprintf(fptr, "%.2lf %s %.2lf = %.2lf\n", num1, operation, num2, result);
+	
 	fclose(fptr);
 }
 

@@ -5,9 +5,10 @@
 #include "../calculator//animation.h"
 
 #define MAX_HISTORY_LENGTH 100 
+
 char option;
-char operator[10];
 double num1, num2, result;
+char dick[100] = "";
 
 int main() {
 	
@@ -26,13 +27,13 @@ int main() {
 		switch (option) {
 
 		case '1':
-			calculator(&num1, &num2,&result);
+			snprintf(dick, 100, "%s", calculator(&num1, &num2, &result));
 			break;
 		case '2':
 			//binary();
 			break;
 		case '3':
-			animation(num1,num2,result);
+			animation(dick);
 			break;
 		case '4':
 			clearHistory();
@@ -44,7 +45,7 @@ int main() {
 			printf("程式已關閉。\n");
 			break;
 		default:
-			printf("請選擇有效的選項（1/2/3/4/5）。\n");
+			printf("請選擇有效的選項（1/2/3/4/5/6）。\n");
 			break;
 		}
 		system("pause");
