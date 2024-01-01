@@ -55,10 +55,7 @@ char* calculator(double *num1, double *num2, double *result) {
 		}
 		else if (strcmp(operator, "%") == 0) *result = (int)*num1 % (int)*num2;
 		else if (strcmp(operator, "^") == 0) *result = pow(*num1, *num2);
-		/*else if (strcmp(operator, "sqrt") == 0) {
-			if (*num1 >= 0) *result = sqrt(*num1);
-			else printf("錯誤：負數無法計算平方根\n");
-		}*/
+		
 		else if (strcmp(operator, "log") == 0) *result = log(*num2) / log(*num1);
 		printf("結果: %.2lf %s %.2lf = %.2lf\n", *num1, operator, *num2, *result);
 		saveHistory(operator, *num1, *num2, *result);
