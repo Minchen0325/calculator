@@ -14,7 +14,7 @@ char* calculator(double *num1, double *num2, double *result) {
 	double value;
 	//檢查運算符號
 	do {
-		printf("請輸入運算符( +, -, *, /, %, ^, sqrt, log , (a)sin , (a)cos , (a)tan ) : ");
+		printf("請輸入運算符( +, -, *, /, %%, ^, sqrt, log , (a)sin , (a)cos , (a)tan ,按下Enter退回主選單) : ");
 		getchar();
 		fgets(operator, sizeof(operator), stdin);
 

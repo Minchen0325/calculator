@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 #include "../calculator//history.h"
 #include "../calculator//Operation.h"
 #include "../calculator//animation.h"
