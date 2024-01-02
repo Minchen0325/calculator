@@ -124,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\checkdonkey.c" />
     <ClCompile Include="animation.c" />
     <ClCompile Include="history.c" />
     <ClCompile Include="main.c" />
@@ -131,6 +132,7 @@
     <ClCompile Include="translate.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\checkdonkey.h" />
     <ClInclude Include="animation.h" />
     <ClInclude Include="history.h" />
     <ClInclude Include="Operation.h" />

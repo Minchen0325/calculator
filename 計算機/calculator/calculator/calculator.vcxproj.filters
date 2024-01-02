@@ -26,6 +26,9 @@
     <ClCompile Include="Operation.c">
       <Filter>sourse</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\checkdonkey.c">
+      <Filter>sourse</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="history.h">
@@ -38,6 +41,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="Operation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\checkdonkey.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
