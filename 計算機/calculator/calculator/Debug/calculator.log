@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿  translate.c
 c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(87): warning C4013: 'system' 未定義; 假設 extern 傳回整數
 c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(100): warning C4013: 'checkdonkey' 未定義; 假設 extern 傳回整數
@@ -9,28 +8,3 @@ c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(175
   c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(175): note: 預留位置及其參數需要 0 個 variadic 引數，但卻提供了 1 個
 c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(181): warning C4716: 'binary': 必須傳回值
   calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe
-=======
-﻿  Operation.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(7): warning C4013: 'strstr' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(7): warning C4047: '!=': 'int' 與 'void *' 間接取值的層級不同
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(12): warning C4013: 'malloc' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(17): warning C4476: 'printf' : 格式規範中有未知的類型欄位字元 ','
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(27): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(49): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(12): warning C4047: '正在初始化': 'char *' 與 'int' 間接取值的層級不同
-  animation.c
-  history.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\history.c(8): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\history.c(32): warning C4013: 'system' 未定義; 假設 extern 傳回整數
-  main.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(27): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(40): warning C4013: 'binary' 未定義; 假設 extern 傳回整數
-  translate.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(49): warning C4013: 'system' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(55): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(47): warning C4101: 'back': 未參考的區域變數
-  正在產生程式碼...
-c:\users\user\desktop\calculator\計算機\calculator\calculator\translate.c(75): warning C4716: 'binary': 必須傳回值
-  LINK : 最後的累加連結找不到或未建置 C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe，正在執行完整連結
-  calculator.vcxproj -> C:\Users\USER\Desktop\calculator\計算機\calculator\Debug\calculator.exe
->>>>>>> 71cdb076bd395e2799d3f7b83f402ea419d48395
