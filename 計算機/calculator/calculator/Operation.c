@@ -15,12 +15,22 @@ char* calculator(double *num1, double *num2, double *result) {
 	//檢查運算符號
 	do {
 		printf("請輸入運算符( +, -, *, /, %, ^, sqrt, log , (a)sin , (a)cos , (a)tan ) : ");
-		scanf(" %s", operator);
+		getchar();
+		fgets(operator, sizeof(operator), stdin);
+
+		if (strcmp(operator, "\n") == 0 || strlen(operator) == 1) {
+			printf("返回主選單\n");
+			return "";
+		}
+
+		// 去除換行符號
+		operator[strcspn(operator, "\n")] = '\0';
 
 		if (!isValidOperator(operator)) {
 			printf("錯誤：無效的運算符\n");
 		}
 	} while (!isValidOperator(operator));
+
 	//檢查是否是單一運算
 
 	//三角函數

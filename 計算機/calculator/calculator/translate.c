@@ -12,7 +12,7 @@ int checkb2d(int x)
 
 		if (check != 0 && check != 1)
 		{
-			printf("輸入錯誤(只能0跟1\n)");
+			printf("輸入錯誤(只能0跟1)\n");
 			ret = 0;
 			x = 0;
 			break;
