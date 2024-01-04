@@ -44,15 +44,20 @@ char* calculator(double *num1, double *num2, double *result) {
 			else if (strcmp(operator, "tan") == 0) *result = tan(value / 180 * PI);
 			printf("結果: %s %.2lf = %.2lf\n", operator, value, *result);
 		}
-		else if (strcmp(operator, "asin") == 0 || strcmp(operator, "acos") == 0 || strcmp(operator, "atan") == 0) {
+		else if (strcmp(operator, "asin") == 0 || strcmp(operator, "acos") == 0/* || strcmp(operator, "atan") == 0*/) {
 			do {
-				printf("請輸入值(0~1):");
+				printf("請輸入值(-1~1):");
 				scanf("%lf", &value);
-			} while (value < 0 || value > 1);
+			} while (value < -1 || value > 1);
 
 		    if (strcmp(operator, "asin") == 0) *result = (asin(value) / PI * 180);
 		    else if (strcmp(operator, "acos") == 0) *result = (acos(value) / PI * 180);
-		    else if (strcmp(operator, "atan") == 0) *result = (atan(value) / PI * 180);
+			printf("結果: %s %.2lf = %.2lf\n", operator, value, *result);
+		}
+		else if (strcmp(operator, "atan") == 0) {
+			printf("請輸入值():");
+			scanf("%lf", &value);
+			*result = (atan(value) / PI * 180);
 			printf("結果: %s %.2lf = %.2lf\n", operator, value, *result);
 		}
 

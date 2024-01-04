@@ -1,4 +1,10 @@
-﻿  main.c
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(16): warning C4013: 'system' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\calculator\計算機\calculator\calculator\main.c(40): warning C4013: 'binary' 未定義; 假設 extern 傳回整數
+﻿  Operation.c
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(7): warning C4013: 'strstr' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(7): warning C4047: '!=': 'int' 與 'void *' 間接取值的層級不同
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(12): warning C4013: 'malloc' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(21): warning C4013: 'strcmp' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(21): warning C4013: 'strlen' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(27): warning C4013: 'strcspn' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(64): warning C4013: 'saveHistory' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\calculator\計算機\calculator\calculator\operation.c(12): warning C4047: '正在初始化': 'char *' 與 'int' 間接取值的層級不同
   calculator.vcxproj -> C:\Users\user\Desktop\calculator\計算機\calculator\Debug\calculator.exe

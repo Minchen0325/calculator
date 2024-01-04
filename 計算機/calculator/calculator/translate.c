@@ -172,7 +172,7 @@ int binary() {
 					printf("二進制為:%d\n", d2b(sum));
 				}
 				
-				printf("%b", (int)a);
+				
 			}
 
 		}
